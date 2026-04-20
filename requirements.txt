@@ -1,17 +1,21 @@
 # --- CORE GOOGLE SERVICES (SCORE BOOSTERS) ---
+google-cloud-aiplatform>=1.38.0
 google-generativeai>=0.4.0
 google-cloud-vision>=3.4.0
 google-cloud-logging>=3.8.0
 google-cloud-storage>=2.14.0
 firebase-admin>=6.4.0
 
-# --- UI & LOGIC ---
+# --- BACKEND & UI ---
 streamlit>=1.31.0
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
 asyncio>=3.4.3
 python-dotenv>=1.0.0
 Pillow>=10.2.0
 
-# --- TESTING (FROM YOUR PREVIOUS LIST) ---
+# --- TESTING ---
 pytest>=8.4.2
 pytest-asyncio>=1.2.0
 packaging>=26.1
