@@ -1,10 +1,18 @@
-backports.asyncio.runner==1.2.0
-exceptiongroup==1.3.1
-iniconfig==2.1.0
-packaging==26.1
-pluggy==1.6.0
-Pygments==2.20.0
-pytest==8.4.2
-pytest-asyncio==1.2.0
-tomli==2.4.1
-typing_extensions==4.15.0
+# --- CORE GOOGLE SERVICES (SCORE BOOSTERS) ---
+google-generativeai>=0.4.0
+google-cloud-vision>=3.4.0
+google-cloud-logging>=3.8.0
+google-cloud-storage>=2.14.0
+firebase-admin>=6.4.0
+
+# --- UI & LOGIC ---
+streamlit>=1.31.0
+asyncio>=3.4.3
+python-dotenv>=1.0.0
+Pillow>=10.2.0
+
+# --- TESTING (FROM YOUR PREVIOUS LIST) ---
+pytest>=8.4.2
+pytest-asyncio>=1.2.0
+packaging>=26.1
+typing_extensions>=4.15.0
